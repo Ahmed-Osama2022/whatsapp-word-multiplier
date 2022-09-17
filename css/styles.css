@@ -1,0 +1,185 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family: "Poppins", sans-serif;
+
+}
+
+html {
+    background: url("../photos/darkGreyTexture.jpg") no-repeat center center fixed ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px; /* Big difference */
+}
+
+h1 {
+    /* margin-right: 20px; */
+    padding-bottom: 15px;
+    color: red ;
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
+.container {
+    max-width: 480px;
+    width: 100%;
+    /* background: #FFF; */
+    background: rgba(189, 187, 187, 0.507) ;
+    padding: 35px 40px;
+    border-radius: 7px;
+    box-shadow: rgba(0,0,0, 0.2);
+
+}
+
+.container .input-box {
+    position: relative;
+    height: 60px;
+    margin: 25px 0;
+
+}
+.input-box input {
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    color: #333;
+    border-radius: 6px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500 ;
+    border: 3px solid #a6a6a6;
+}
+
+#number-input {
+    margin-top: 10px;
+}
+
+
+input {
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    padding: 10px 0;
+    background: crimson;
+}
+
+/* The generator button */
+#button {
+    border-radius: 6px;
+    border: 3px solid #a6a6a6;
+    background: crimson;
+    font-size: 16px;
+    margin-top: 70px;
+}
+
+#button:hover {
+    background: rgba(121, 6, 29, 0.48);
+    transition: ease 0.3s all;
+}
+
+#output {
+    font-weight: normal;
+    margin-top: 25px 0 ;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+ /* Styling for the output frame */
+#final {
+    height: 70px;
+    background-color: #65cf65;
+}
+
+.copy-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#copy-button {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 12pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(231, 46, 164);
+    background-color: #f584a6;
+    border-radius: 100px;
+    width: 65px;
+    color: red;
+}
+
+#copy-button:hover {
+    background: rgba(87, 4, 21, 0.48);
+    transition: ease 0.3s all;
+    color: blue;
+}
+#final::selection {
+    background-color: #f584a6;
+}
+
+.author {
+    font-size: 9pt;
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+}
+
+#my-name {
+    /* padding-top: 5px; */
+    padding-left: -10px;
+    margin-top: 10px; 
+    padding: -10px -10px -10px -10px;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    font-size: 20pt;
+    color: blue;
+    margin-left: 3px; 
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a:hover {
+    font-size: 26pt;
+    text-shadow: blue 3px 3px 5px;
+    transition: ease 0.2s all;
+}
+
+#telephone {
+    font-size: 10pt;
+    color: blue;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+#telephone:hover {
+    font-size: 14pt;
+    text-shadow: blue 3px 3px 5px;
+    transition: ease 0.2s all;
+
+}
